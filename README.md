@@ -1,4 +1,4 @@
-# AI-Based Identification & GIS Mapping of Endangered Medicinal Plants
+# AI-Assisted Identification & GIS Mapping of Endangered Medicinal Plants
 
 A production-ready project that combines computer vision and geospatial intelligence to identify endangered medicinal plants from images and map their ecological distribution.
 
