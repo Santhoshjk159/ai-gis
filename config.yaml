@@ -1,0 +1,18 @@
+project:
+  name: AI-Based Identification & GIS Mapping of Endangered Medicinal Plants
+  version: 1.0.0
+
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  processed_locations: data/processed/sample_locations.csv
+  results_dir: outputs/results
+  maps_dir: outputs/maps
+
+training:
+  image_size: [224, 224]
+  batch_size: 16
+  epochs: 8
+  validation_split: 0.2
+  backbone: efficientnetb0
+  seed: 42
